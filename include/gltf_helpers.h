@@ -7,7 +7,7 @@
 // Exception throwing convenience function
 inline void throw_material_error(const tinygltf::Material& input_mat, const char *err_msg)
 {
-    throw std::runtime_error(fmt::format(err_msg, input_mat.name));
+    //~ throw std::runtime_error(fmt::format(err_msg, input_mat.name));
 }
 
 template <typename T>
